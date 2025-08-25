@@ -1,0 +1,21 @@
+@use "../../styles/variables" as v;
+
+.btnHero {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: none;
+  border: v.$color-text 2px solid;
+  border-radius: 24px;
+  padding: 8px 20px;
+  color: v.$color-text;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+
+  svg {
+    font-size: 20px;
+  }
+}
