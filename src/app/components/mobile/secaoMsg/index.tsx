@@ -2,7 +2,7 @@ import styles from "./msg.module.scss";
 import Image from "next/image";
 import ImgFlor from "@/assets/logoBody.png";
 
-export function Msg() {
+export function MsgMobile() {
   return (
     <section className={styles.contentMsg}>
       <Image

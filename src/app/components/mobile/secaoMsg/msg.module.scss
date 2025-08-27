@@ -1,0 +1,29 @@
+@use "../../../styles/variables" as v;
+
+.contentMsg {
+  display: none; // 🔹 por padrão escondido (desktop/tablet)
+
+  @media (max-width: 760px) {
+    // 🔹 só aparece em telas até 768px
+    width: 100%;
+    max-width: 1450px;
+    height: 100%;
+    padding: 50px 0;
+    background-size: cover;
+    display: flex; // reativa no mobile
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
+    p {
+      width: 80%;
+      text-align: center;
+      color: v.$color-text-secundary;
+      font-size: 1rem;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      font-style: italic;
+    }
+  }
+}

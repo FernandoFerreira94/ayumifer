@@ -1,0 +1,73 @@
+@use "../../../styles/variables" as v;
+
+.contentHero {
+  width: 100%;
+  min-height: 550px;
+  background: linear-gradient(rgba(0, 0, 0, 0.65)),
+    url("../../../../assets/logo5.png");
+  background-repeat: no-repeat;
+  background-size: cover; // mostra a imagem inteira
+  background-position: center;
+  position: relative;
+}
+
+.contentHeader {
+  width: 80%;
+  max-width: 1450px;
+  height: 60px;
+  margin: 0 auto;
+  border-radius: 40px;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 4px 6px 8px 0px rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+
+  position: fixed;
+  top: 20px; // sempre colado no topo (pode ajustar distância)
+  left: 50%;
+  transform: translateX(-50%); // centraliza horizontalmente
+  z-index: 999; // garante que fique acima do conteúdo
+}
+
+.link {
+  font-size: 18px;
+  font-weight: 400;
+  position: relative; // necessário pro ::after se posicionar
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px; // ajusta a distância da linha pro texto
+    width: 0;
+    height: 2px;
+    background-color: v.$color-text; // usa tua cor
+    transition: width 0.3s ease-in-out;
+  }
+
+  &:hover {
+    color: v.$color-text;
+
+    &::after {
+      width: 100%; // linha cresce até o tamanho do link
+    }
+  }
+}
+
+.navHEader {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 760px) {
+  .contentHeader,
+  .contentHero {
+    display: none;
+  }
+}
