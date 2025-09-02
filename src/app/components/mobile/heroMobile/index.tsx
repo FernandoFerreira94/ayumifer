@@ -10,13 +10,21 @@ export function HeroMobile() {
   return (
     <div className={styles.content}>
       <div className={styles.contentIcons}>
-        <Link href="#" target="_blank" className={styles.linkIcon}>
-          @ayumifer
+        <Link
+          href="https://www.instagram.com/ayumifernails/"
+          target="_blank"
+          className={styles.linkIcon}
+        >
           <FaInstagram scale={15} color="#bfa641" />
+          @ayumifer
         </Link>
-        <Link href="#" target="_blank" className={styles.linkIcon}>
-          (12) 9 9999-9999
+        <Link
+          href="https://wa.me/5512991024918"
+          target="_blank"
+          className={styles.linkIcon}
+        >
           <FaWhatsapp scale={15} color="#bfa641" />
+          (12) 9 9102-4918
         </Link>
       </div>
       <div className={styles.contentLogo}>
@@ -30,10 +38,12 @@ export function HeroMobile() {
         />
       </div>
       <div className={styles.contentBtnHero}>
-        <BtnHero>
-          {" "}
-          <FaWhatsapp /> Agendar um horário
-        </BtnHero>
+        <Link href="https://wa.me/5512991024918" target="_blank">
+          <BtnHero>
+            {" "}
+            <FaWhatsapp /> Agendar um horário
+          </BtnHero>
+        </Link>
       </div>
     </div>
   );
