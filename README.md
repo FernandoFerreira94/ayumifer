@@ -3,6 +3,8 @@
 Landing Page desenvolvida para a profissional **AyumiFer**, especialista em design de unhas e alongamento em fibra.  
 O projeto foi pensado para transmitir **elegância, conforto visual e modernidade**, refletindo a identidade da marca.
 
+
+![Screenshot do projeto](./public/og-image.png)
 ---
 
 ## 🚀 Tecnologias Utilizadas
