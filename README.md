@@ -23,3 +23,17 @@ O projeto foi pensado para transmitir **elegância, conforto visual e modernidad
 
 ---
 
+## 🌟 Funcionalidades
+
+- **Página Home** com Hero dinâmico exibindo a data atual
+- **Menu de navegação** com seções:
+  - Home
+  - Estúdio
+  - Serviços
+  - Contato
+  - Sobre
+- **Links diretos para redes sociais**
+- **Design totalmente responsivo**, adaptado para dispositivos móveis, tablets e desktops
+- **Experiência visual confortável e elegante** para clientes do estúdio
+
+---
