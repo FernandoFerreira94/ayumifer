@@ -39,15 +39,15 @@ export const metadata: Metadata = {
     title: "Design de Nails | Beleza e Estilo",
     description:
       "Unhas impecáveis com os melhores designs e técnicas modernas. Confira nossa galeria e agende já seu atendimento!",
-    url: "https://ayumifer.vercel.app",
+    url: "https://ayumifer.vercel.app/",
     siteName: "Design de Nails",
     locale: "pt_BR",
     type: "website",
-    images: ["/og-image.jpg"],
+    images: ["/og-image.png"],
   },
 
   alternates: {
-    canonical: "https://ayumifer.vercel.app",
+    canonical: "https://ayumifer.vercel.app/",
   },
 
   robots: {
