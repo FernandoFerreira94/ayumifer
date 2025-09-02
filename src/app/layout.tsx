@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     siteName: "Design de Nails",
     locale: "pt_BR",
     type: "website",
-    images: ["/og-image.png"],
+    images: ["https://ayumifer.vercel.app/og-image.png"],
   },
 
   alternates: {
